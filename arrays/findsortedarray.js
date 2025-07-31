@@ -1,4 +1,4 @@
-
+// code to find if array is sorted or not.
     function isSorted(nums) {
         for (let i = 0; i < nums.length - 1; i++) {
             if (nums[i] > nums[i + 1]) {
