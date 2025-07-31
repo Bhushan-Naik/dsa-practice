@@ -14,12 +14,14 @@ function secondLargest(nums) {
     } else if (num > second && num < first) {
       second = num;
     }
+    console.log(first,second);
   }
 
   return second === -Infinity ? -1 : second;
 }
 
-console.log(secondLargest([5, 2, 1, 9, 7]));  
-console.log(secondLargest([9, 9, 9]));    
-console.log(secondLargest([5]));              
-console.log(secondLargest([5, 5, 6]));  
+console.log("second Largest number in array is "+secondLargest([5, 2, 1, 9, 7]));  
+console.log("second Largest number in array is "+secondLargest([9, 9, 9]));    
+console.log("second Largest number in array is "+secondLargest([5,6]));              
+console.log("second Largest number in array is "+secondLargest([5, 5, 6]));  
+console.log("second Largest number in array is "+secondLargest([3,5,8,2,11])); 
