@@ -37,7 +37,7 @@ function rightRotateByK(arr, k) {
 
   return rotated;
 }
-console.log(rightRotateByK(([1,2,3,4,5,6]),2));
+console.log(rightRotateByK(([1,2,3,4,5,6,7,8,9,10]),2));
 
 //wrong guesssed code by brn
 // function leftRotateByK(arr,k){
