@@ -28,7 +28,13 @@ function unionSortedArrays(arr1, arr2) {
 
   return result;
 }
-let arr1 = [1, 2, 4, 5, 6];
-let arr2 = [2, 3, 5, 7];
+// let arr1 = [1, 2, 4, 5, 6];
+// let arr2 = [2, 3, 5, 7];
+arr1 = [7,8,9,10,11,12]
+arr2 = [3, 4,5,6]
 console.log(unionSortedArrays(arr1, arr2));
 // Output: [1, 2, 3, 4, 5, 6, 7]
+
+function unionSortedArrays2(arr1, arr2) {
+  return [...new Set([...arr1, ...arr2])].sort((a, b) => a - b);
+}console.log(unionSortedArrays2(arr1, arr2));
