@@ -1,18 +1,18 @@
 
-// BRN Code
-function sortZeroOneTwos(arr){
-    let temp=[]
-    for(let i = 0; i< arr.length-1; i++){
-        for(let j = 0; j< arr.length; j++){
-            if( i === arr[j])
-            {
-               temp.push(arr[j]); 
-            }
-        }
-    }
-    return temp;
-}
-console.log(sortZeroOneTwos([0,1,2,1,0,2,0,0,0,1,1,1,2]));
+// // BRN Code
+// function sortZeroOneTwos(arr){
+//     let temp=[]
+//     for(let i = 0; i< arr.length-1; i++){
+//         for(let j = 0; j< arr.length; j++){
+//             if( i === arr[j])
+//             {
+//                temp.push(arr[j]); 
+//             }
+//         }
+//     }
+//     return temp;
+// }
+// console.log(sortZeroOneTwos([0,1,2,1,0,2,0,0,0,1,1,1,2]));
 
 
 
@@ -36,7 +36,7 @@ function sortZeroOneTwos(arr) {
       [arr[mid], arr[high]] = [arr[high], arr[mid]];
       high--;
     }
-  }
+  } 
   return arr;
 }
 
