@@ -12,6 +12,9 @@ function nextPermutation(nums) {
     let j = n - 1;
     while (nums[j] <= nums[i]) {
       j--;
+      
+
+      
     }
     // Swap
     [nums[i], nums[j]] = [nums[j], nums[i]];
