@@ -43,23 +43,24 @@ function printLeaders(arr) {
             leaders.push(arr[i]);
             maxFromRight = arr[i];
         }
-    }
+    } 
 
     // Leaders were collected from right to left, so reverse them
     return leaders.reverse();
 }
+
 
 // Example usage
 console.log(printLeaders([4, 7, 1, 0]));         // [7, 1, 0]
 console.log(printLeaders([10, 22, 12, 3, 0, 6])); // [22, 12, 6]
 console.log(printLeaders([10, 22, 12, 3, 0, 6]));
 
-let maxFromRight = arr[n-1];
-for (let i = n-2; i >= 0; i--) {
-    if (arr[i] > maxFromRight) {
-        // arr[i] is leader
-    }
-}
+// let maxFromRight = arr[n-1];
+// for (let i = n-2; i >= 0; i--) {
+//     if (arr[i] > maxFromRight) {
+//         // arr[i] is leader
+//     }
+// }
 
 // Single traversal of array from right to left.
 
