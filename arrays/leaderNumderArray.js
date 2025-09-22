@@ -19,7 +19,6 @@ function findLeaders(arr) {
             leaders.push(arr[i]);
         }
     }
-
     return leaders;
 }
 
